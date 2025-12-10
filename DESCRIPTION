@@ -17,5 +17,12 @@ Depends:
     R (>= 3.5)
 Imports:
   dplyr,
+<<<<<<< HEAD
   gt
 RoxygenNote: 7.3.3
+=======
+  gt,
+  ggplot2, 
+  plotly
+    
+>>>>>>> 873a7170aac6a6a2ad4ed3fdd449ec6c7f4eae26

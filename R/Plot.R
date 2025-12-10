@@ -33,4 +33,4 @@ plot_heart <- function(data,var){
 }
 
 
-plot_heart(heart, "Asge")
+
