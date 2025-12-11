@@ -17,7 +17,7 @@ summ_heartr <- function(...){
       Minimum = min(x),
       Q1 = stats::quantile(x, 0.25),
       Median = stats::median(x),
-      Q3 = stats::quantile(x, 0.25),
+      Q3 = stats::quantile(x, 0.75),
       Maximum = max(x),
       SD = stats::sd(x),
       Var = stats::var(x)

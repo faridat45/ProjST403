@@ -11,7 +11,7 @@ print.summ_heartr<- function(x) {
     gt::cols_label(
       Variable = gt::md("*Variable*"),
       Mean = gt::md("**Mean**"),
-      Minimum = gt::md("**Maximum**"),
+      Minimum = gt::md("**Minimum**"),
       Q1 = gt::md("**1st Quartile**"),
       Median = gt::md("**Median**"),
       Q3 = gt::md("**3rd Quartile**"),
@@ -46,6 +46,4 @@ print.summ_heartr<- function(x) {
 
 
 
-a <- summ_heartr(heart_disease_data$Age, heart_disease_data$Weight, heart_disease_data$BMI)
 
-print(a)
